@@ -5,8 +5,8 @@
 </div>
 <div class="container" *ngIf="weatherData">
   <div class="upper-data">
-    <img src="../assets/hot.png" alt="hot" *ngIf="weatherData.main.temp>15">
-    <img src="../assets/cold.png" alt=" cold" *ngIf="weatherData.main.temp<=15">
+    <img src="/assets/hot.png" alt="hot" *ngIf="weatherData.main.temp>15">
+    <img src="/assets/cold.png" alt=" cold" *ngIf="weatherData.main.temp<=15">
     <div class="weatherdata">
       <div class="location"> {{weatherData.name}}</div>
       <div class="temperature">{{weatherData.main.temp| number:'1.0-0'}}°C</div>
@@ -19,7 +19,7 @@
     <div class="moreinfocontainer">
       <div class="infoblock">
         <div class="infoblocklabel">
-          <img src="../assets/mini1.png" alt="">
+          <img src="/assets/mini1.png" alt="">
           <span>min</span>
         </div>
         <div class="infoblockvalue">
@@ -28,7 +28,7 @@
       </div>
       <div class="infoblock">
         <div class="infoblocklabel">
-          <img src="../assets/maxi.png" alt="">
+          <img src="/assets/maxi.png" alt="">
           <span>max</span>
         </div>
         <div class="infoblockvalue">
@@ -37,7 +37,7 @@
       </div>
       <div class="infoblock">
         <div class="infoblocklabel">
-          <img src="../assets/humi.png" alt="">
+          <img src="/assets/humi.png" alt="">
           <span>humidity</span>
         </div>
         <div class="infoblockvalue">
@@ -46,7 +46,7 @@
       </div>
       <div class="infoblock">
         <div class="infoblocklabel">
-          <img src="../assets/windii1.png" alt="">
+          <img src="/assets/windii1.png" alt="">
           <span>wind</span>
         </div>
         <div class="infoblockvalue">
