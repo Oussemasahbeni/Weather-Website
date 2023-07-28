@@ -1,7 +1,7 @@
 
 # https://oussemasahbeni.github.io/Weather-Website/
 
-# Devoir
+# Weather Website
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
